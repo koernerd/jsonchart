@@ -8,6 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DKViewController : UIViewController
+@interface DKViewController : UIViewController{
+    
+    IBOutlet UILabel* lastBid;
+    IBOutlet UILabel* lastAsk;
+    IBOutlet UILabel* todayHigh;
+    IBOutlet UILabel* todayLow;
+    
+    
+
+    IBOutlet UILabel* currentDifficulty;
+    IBOutlet UILabel* nextDifficulty;
+    IBOutlet UILabel* nextBlocks;
+   
+    IBOutlet UILabel *symbolHere;
+}
+
 
 @end
